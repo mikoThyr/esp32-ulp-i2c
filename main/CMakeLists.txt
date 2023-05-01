@@ -1,6 +1,5 @@
 idf_component_register(	SRCS    "main.c"
-						            SRC_DIRS "ulp"
-						            INCLUDE_DIRS "../include")
+						            SRC_DIRS "ulp")
 
 set(ulp_app_name ulp_${COMPONENT_NAME})
 set(ulp_s_sources 	"ulp/ulp_main_file.S"
