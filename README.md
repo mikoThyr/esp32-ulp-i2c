@@ -9,7 +9,6 @@
 .set    START_COM,      0x01
 .set    NO_STOP_COM,    0x00
 
-
 order_write     START_COM       ADDRESS_W_COM   ACK_COM     NO_STOP_COM
 psr
 jump    i2c_write
